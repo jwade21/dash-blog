@@ -8,9 +8,11 @@
   body {
     background: url('http://brandthunder.com/wp/wp-content/uploads/2011/11/Windows-Desktop-Background.jpg');
     background-size: cover;
+    padding-bottom: 15px;
   }
   a {
     color: white;
+    text-decoration: none;
   }
   h1 {
     font-size: 70px;
@@ -25,6 +27,7 @@
     padding: 10px;
     background: rgba(0,0,0,0.5);
     position: fixed;
+    margin-top: 5px;
     top: 0;
     right: 0;
     left: 0;
@@ -32,9 +35,6 @@
   li {
     display: inline;
     padding: 0px 10px 0px 10px;
-  }
-  li a {
-    text-decoration: none;
   }
   article {
     max-width: 500px;
